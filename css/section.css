@@ -83,6 +83,7 @@ img{
     transform: translateZ(0);
     font-size: medium;
     padding:  7px;
+    border-radius: 0px 0px 10px 10px;
 }
   
 .products-list{
