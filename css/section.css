@@ -1,0 +1,98 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f6f9;
+    padding: 0;
+    margin: 0;
+}
+section{
+    margin: auto;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+h2{
+    margin: 5px;
+    font-size: 1em;
+
+}
+.card{
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    overflow : hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+p{
+    margin: 0;
+    padding: 7px;
+}
+svg{
+    cursor: pointer;
+}
+.iconImg{
+    width: 40px;
+    height: 40px ;
+    cursor: pointer;
+}
+
+.product-detail{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    
+}
+.view{
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.add-to-card{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: yellow;
+    cursor: pointer;
+    transition: all ease-in-out .3s;
+    -webkit-backface-visibility: hidden; 
+    -ms-transform: translateZ(0); /* IE 9 */
+    -webkit-transform: translateZ(0); /* Chrome, Safari, Opera */
+    transform: translateZ(0);
+    font-size: medium;
+    padding:  7px;
+}
+  
+.products-list{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+}
+
+
+  
+
+
